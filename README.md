@@ -2,7 +2,7 @@
 Este desafio faz parte da Bootcamp da Santander.
 _repositorio criado para o desafio do projeto_
 
-Modulos da Bootcamp que já foram concluídos :check:
+Modulos da Bootcamp que já foram concluídos :white_check_mark:
 - D105185A (Introdução à programação e pensamento computacional)
 - C5E1B330 (Criando o primeiro repositório no Github para compartilhar o Progresso)
 - AE78951E (Introdução ao Git e ao Github)
