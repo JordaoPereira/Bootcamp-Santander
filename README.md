@@ -8,8 +8,8 @@ Modulos da Bootcamp que já foram concluídos :white_check_mark:
 - AE78951E (Introdução ao Git e ao Github)
 - 0609D821 (Seja protagonista neste Bootcamp)
 - 8B1F235A (Conheça as oportunidades da DIO)
-- 8B1F235A (Conheça as oportunidades da DIO) 
-
+- 00E23E0A (Boas-vindas Santander Bootcamp Fullstack)
+- 6042F5C6 (Introdução a criação de websites com HTML5 e CSS3)
 
 ## Plagiando o professor para simplificar e dinamizar
 [Lista de comandos Git Básico](https://comandosgit.github.io/)
