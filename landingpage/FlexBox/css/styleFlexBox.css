@@ -1,0 +1,14 @@
+.flex {
+    background-color: rgb(33, 81, 143);
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid none;
+    display: flex;
+    margin: 0px auto;
+}
+
+.item {
+    color: white;
+    margin: 5px;
+}
+
