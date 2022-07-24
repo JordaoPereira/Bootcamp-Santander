@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Items</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: blueviolet;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .start {
+            align-items: flex-start;
+        }
+
+        .end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+        }
+
+        .row {
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+<body>
+    <h1>align-items</h1>
+    <section class="container">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+    
+    <p>align-items center</p>
+    <section class="container center">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+
+    <p>align-items stretch</p>
+    <section class="container stretch">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+    
+    <p>align-items start</p>
+    <section class="container start">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+    
+    <p>align-items end</p>
+    <section class="container end">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+
+    <p>align-items baseline</p>
+    <section class="container baseline">
+        <div class="item"><br>eu acordei</div>
+        <div class="item"><br>Hoje pela manhã</div>
+        <div class="item"><br>mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+
+    <h1>Column</h1>
+
+    <p>align-items column + start</p>
+    <section class="container column start">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+
+    <p>align-items column + end</p>
+    <section class="container column end">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section>
+
+    <p>align-items column + center</p>
+    <section class="container column center">
+        <div class="item">eu acordei</div>
+        <div class="item">Hoje pela manhã</div>
+        <div class="item">mas em seguida fui dormir. Lorem Ipsum</div>
+    </section> 
+
+    <p>align-items column + baseline</p>
+    <section class="container column baseline">
+        <div class="item"><br>eu acordei</div>
+        <div class="item"><br>Hoje pela manhã</div>
+        <div class="item"><br>mas em seguida fui dormir. Lorem Ipsum</div>
+    </section> 
+
+</body>
+</html>
