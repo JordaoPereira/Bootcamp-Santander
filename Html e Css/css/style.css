@@ -1,12 +1,14 @@
 body {
     background: #f7f7f7;
+    max-width: 900px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #title, .subtitle, .post_subtitle {
     color:black;
     font-weight: bold;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #title {
@@ -26,17 +28,18 @@ body {
     font-style: italic;
     margin: 0;
     margin-bottom: 15px;
+    text-align: left;
+}
+
+.post_content {
+    margin: 0px;
+    text-align: justify;
 }
 
 .post, .footer {
     background-color: white;
     padding: 15px;
     border-radius: 5%;
-    margin-bottom: 15px;
-}
-
-.post_content, .footer {
-    margin: 0;
     margin-bottom: 15px;
 }
 
