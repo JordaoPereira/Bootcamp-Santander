@@ -1,19 +1,50 @@
 body {
-    background: #ccc;
+    background: #f7f7f7;
 }
 
 #title, .subtitle, .post_subtitle {
-    color:blue;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.img, .img_header {
+    display: block;
+    width: 5%;
+    margin: 15px auto;
+    margin-bottom: 15px;
 }
 
 .post_subtitle {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
-.post {
-    background: #fff;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 10px;
+.post, .footer {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+.post_content, .footer {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.contact-list li a {
+    color: blue;
 }
