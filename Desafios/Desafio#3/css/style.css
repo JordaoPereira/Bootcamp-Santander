@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-width: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.instagram-phone img {
+    height: 40rem;
+    padding: 0;
+}
+
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 60%;
+    min-height: 32rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 50%;
+    padding: 1.5rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 7rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-height: auto;
+}
+
+.instagram-logout {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #385185;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.get-the-app p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 1rem;
+
+}
+
+.photo-apple, .photo-google {
+    height: 2.5rem;
+    margin: 10px 0 10px 0;
+}
+
