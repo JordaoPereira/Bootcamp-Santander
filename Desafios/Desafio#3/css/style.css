@@ -33,8 +33,7 @@ body {
 
 
 .instagram-phone img {
-    height: 40rem;
-    padding: 0;
+    height: 30rem;
 }
 
 .instagram-container {
@@ -52,7 +51,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
-    width: 50%;
+    width: 100%;
     padding: 1.5rem 0;
     border: 1px solid lightgray;
 }
